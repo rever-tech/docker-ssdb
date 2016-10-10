@@ -10,7 +10,7 @@ The pre-built image is publish in Docker Hub with name `r3v3r/ssdb`
 
 To build it yourself, run this command on project directory:
 ```sh
-$ docker build -t <your image name here>[:<tag name>] .
+$ docker build -t <your_image_name_here>[:<tag name>] .
 ```
 
 Example: Build an image from this Dockerfile with name `rever/ssdb` and tag `latest`
