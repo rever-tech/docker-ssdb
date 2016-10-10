@@ -33,6 +33,8 @@ $ docker run -d -p <your_external_port>:8888 \
  [--name <your_container_name>] \
  r3v3r/ssdb <folder_contains_config_file_on_container>/<config_file_name>
 ```
+NOTE: `<data_folder_on_container>` must be the same with `work_dir` in config file; and, `<log_folder_on_container>` must be the same with folder contain log files (`logger.output`) in config file
+
 
 Example:
 ```sh
